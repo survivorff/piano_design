@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 320" font-family="Arial, sans-serif">
+  <rect width="560" height="320" fill="#ffffff"/>
+  <text x="280" y="26" font-size="16" font-weight="bold" text-anchor="middle" fill="#222">手指编号（双手通用：1拇 2食 3中 4无 5小）</text>
+
+  <!-- LEFT HAND (palm down, drawn as left hand) -->
+  <text x="140" y="56" font-size="14" font-weight="bold" text-anchor="middle" fill="#2980b9">左手 (Left Hand)</text>
+  <!-- palm -->
+  <ellipse cx="140" cy="240" rx="70" ry="55" fill="#ffe0c0" stroke="#d49a6a" stroke-width="2"/>
+  <!-- fingers: from viewer left to right for left hand: pinky(5),ring(4),mid(3),index(2). Thumb on right side -->
+  <g fill="#ffe0c0" stroke="#d49a6a" stroke-width="2">
+    <rect x="78"  y="150" width="20" height="80" rx="10"/> <!-- 5 -->
+    <rect x="104" y="120" width="22" height="110" rx="11"/> <!-- 4 -->
+    <rect x="132" y="110" width="22" height="120" rx="11"/> <!-- 3 -->
+    <rect x="160" y="125" width="22" height="105" rx="11"/> <!-- 2 -->
+    <rect x="196" y="205" width="40" height="20" rx="10"/> <!-- 1 thumb pointing right -->
+  </g>
+  <g font-size="16" font-weight="bold" fill="#c0392b" text-anchor="middle">
+    <text x="88"  y="140">5</text>
+    <text x="115" y="108">4</text>
+    <text x="143" y="98">3</text>
+    <text x="171" y="113">2</text>
+    <text x="216" y="245">1</text>
+  </g>
+
+  <!-- RIGHT HAND (mirror) -->
+  <text x="420" y="56" font-size="14" font-weight="bold" text-anchor="middle" fill="#2980b9">右手 (Right Hand)</text>
+  <ellipse cx="420" cy="240" rx="70" ry="55" fill="#ffe0c0" stroke="#d49a6a" stroke-width="2"/>
+  <g fill="#ffe0c0" stroke="#d49a6a" stroke-width="2">
+    <rect x="324" y="205" width="40" height="20" rx="10"/> <!-- 1 thumb pointing left -->
+    <rect x="378" y="125" width="22" height="105" rx="11"/> <!-- 2 -->
+    <rect x="406" y="110" width="22" height="120" rx="11"/> <!-- 3 -->
+    <rect x="434" y="120" width="22" height="110" rx="11"/> <!-- 4 -->
+    <rect x="462" y="150" width="20" height="80" rx="10"/> <!-- 5 -->
+  </g>
+  <g font-size="16" font-weight="bold" fill="#c0392b" text-anchor="middle">
+    <text x="344" y="245">1</text>
+    <text x="389" y="113">2</text>
+    <text x="417" y="98">3</text>
+    <text x="445" y="108">4</text>
+    <text x="472" y="140">5</text>
+  </g>
+
+  <text x="280" y="308" font-size="12" text-anchor="middle" fill="#555">两只手都从大拇指开始数 1，到小指 5</text>
+</svg>

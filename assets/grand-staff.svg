@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 360" font-family="Georgia, serif">
+  <rect width="520" height="360" fill="#ffffff"/>
+  <text x="260" y="26" font-size="16" font-weight="bold" text-anchor="middle" fill="#222" font-family="Arial, sans-serif">大谱表（Grand Staff）与中央 C</text>
+
+  <!-- TREBLE staff: 5 lines, y from 60 to 100, spacing 10 -->
+  <g stroke="#333" stroke-width="1.2">
+    <line x1="80" y1="60"  x2="470" y2="60"/>
+    <line x1="80" y1="72"  x2="470" y2="72"/>
+    <line x1="80" y1="84"  x2="470" y2="84"/>
+    <line x1="80" y1="96"  x2="470" y2="96"/>
+    <line x1="80" y1="108" x2="470" y2="108"/>
+  </g>
+  <!-- BASS staff: y from 200 to 248 -->
+  <g stroke="#333" stroke-width="1.2">
+    <line x1="80" y1="200" x2="470" y2="200"/>
+    <line x1="80" y1="212" x2="470" y2="212"/>
+    <line x1="80" y1="224" x2="470" y2="224"/>
+    <line x1="80" y1="236" x2="470" y2="236"/>
+    <line x1="80" y1="248" x2="470" y2="248"/>
+  </g>
+  <!-- left barline connecting both staves -->
+  <line x1="80" y1="60" x2="80" y2="248" stroke="#333" stroke-width="2"/>
+  <line x1="470" y1="60" x2="470" y2="248" stroke="#333" stroke-width="2"/>
+
+  <!-- Treble clef (G clef) as text glyph -->
+  <text x="92" y="106" font-size="62" fill="#222">&#x1D11E;</text>
+  <!-- Bass clef (F clef) -->
+  <text x="92" y="232" font-size="46" fill="#222">&#x1D122;</text>
+
+  <!-- labels -->
+  <text x="40" y="88"  font-size="12" font-family="Arial, sans-serif" fill="#2980b9" text-anchor="middle">高音</text>
+  <text x="40" y="100" font-size="12" font-family="Arial, sans-serif" fill="#2980b9" text-anchor="middle">谱号</text>
+  <text x="40" y="222" font-size="12" font-family="Arial, sans-serif" fill="#2980b9" text-anchor="middle">低音</text>
+  <text x="40" y="234" font-size="12" font-family="Arial, sans-serif" fill="#2980b9" text-anchor="middle">谱号</text>
+
+  <!-- Middle C in the middle, on ledger line at y=154 (midway). ledger line short -->
+  <line x1="250" y1="154" x2="290" y2="154" stroke="#333" stroke-width="1.2"/>
+  <ellipse cx="270" cy="154" rx="9" ry="6.5" fill="#c0392b" transform="rotate(-20 270 154)"/>
+  <text x="330" y="159" font-size="16" font-weight="bold" font-family="Arial, sans-serif" fill="#c0392b">中央 C (C4)</text>
+  <line x1="288" y1="154" x2="326" y2="156" stroke="#c0392b" stroke-width="1"/>
+
+  <!-- mnemonic notes -->
+  <text x="260" y="300" font-size="13" font-family="Arial, sans-serif" text-anchor="middle" fill="#555">高音谱表 线: E G B D F（口诀 EGBDF）  间: F A C E（拼成 FACE）</text>
+  <text x="260" y="322" font-size="13" font-family="Arial, sans-serif" text-anchor="middle" fill="#555">低音谱表 线: G B D F A   间: A C E G</text>
+  <text x="260" y="344" font-size="12" font-family="Arial, sans-serif" text-anchor="middle" fill="#888">右手通常读高音谱表，左手读低音谱表；中央 C 是两者的桥梁</text>
+</svg>

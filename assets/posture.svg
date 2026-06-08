@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 380" font-family="Arial, sans-serif">
+  <rect width="480" height="380" fill="#ffffff"/>
+  <text x="240" y="26" font-size="16" font-weight="bold" text-anchor="middle" fill="#222">正确坐姿示意（侧面）</text>
+
+  <!-- floor -->
+  <line x1="20" y1="350" x2="460" y2="350" stroke="#333" stroke-width="2"/>
+
+  <!-- piano keyboard (right side) -->
+  <rect x="350" y="190" width="110" height="22" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <rect x="350" y="170" width="110" height="20" fill="#222"/>
+  <text x="405" y="232" font-size="11" text-anchor="middle" fill="#555">键盘</text>
+
+  <!-- bench -->
+  <rect x="70" y="250" width="120" height="14" fill="#b5651d" stroke="#7a430f" stroke-width="1.5"/>
+  <line x1="80" y1="264" x2="80" y2="350" stroke="#7a430f" stroke-width="4"/>
+  <line x1="180" y1="264" x2="180" y2="350" stroke="#7a430f" stroke-width="4"/>
+  <text x="130" y="290" font-size="11" text-anchor="middle" fill="#555">琴凳(坐前1/3~1/2)</text>
+
+  <!-- simple stick figure -->
+  <g stroke="#2980b9" stroke-width="5" fill="none" stroke-linecap="round">
+    <!-- head -->
+    <circle cx="150" cy="110" r="22" fill="#cfe8ff" stroke="#2980b9" stroke-width="3"/>
+    <!-- spine (straight, slight forward) -->
+    <line x1="150" y1="132" x2="158" y2="248"/>
+    <!-- upper arm -->
+    <line x1="156" y1="160" x2="220" y2="195"/>
+    <!-- forearm to keyboard (parallel to floor) -->
+    <line x1="220" y1="195" x2="352" y2="195"/>
+    <!-- thigh -->
+    <line x1="158" y1="248" x2="240" y2="250"/>
+    <!-- shin -->
+    <line x1="240" y1="250" x2="250" y2="350"/>
+  </g>
+
+  <!-- annotations -->
+  <g font-size="12" fill="#c0392b">
+    <text x="200" y="100">头颈放松、目视前方</text>
+    <line x1="172" y1="105" x2="195" y2="98" stroke="#c0392b" stroke-width="1"/>
+
+    <text x="40" y="175">背部自然挺直</text>
+    <line x1="120" y1="178" x2="152" y2="185" stroke="#c0392b" stroke-width="1"/>
+
+    <text x="250" y="180">前臂与键盘大致平行</text>
+    <line x1="290" y1="184" x2="290" y2="194" stroke="#c0392b" stroke-width="1"/>
+
+    <text x="270" y="330">双脚平放地面</text>
+    <line x1="290" y1="320" x2="252" y2="345" stroke="#c0392b" stroke-width="1"/>
+  </g>
+
+  <text x="240" y="372" font-size="11" text-anchor="middle" fill="#888">肩膀放松下沉不耸肩；肘部自然下垂、微离身体；重心略向前</text>
+</svg>

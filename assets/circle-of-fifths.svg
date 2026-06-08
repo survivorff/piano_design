@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 440" font-family="Arial, sans-serif">
+  <rect width="440" height="440" fill="#ffffff"/>
+  <text x="220" y="26" font-size="16" font-weight="bold" text-anchor="middle" fill="#222">五度圈（Circle of Fifths）</text>
+
+  <!-- center -->
+  <g>
+    <circle cx="220" cy="232" r="170" fill="none" stroke="#ddd" stroke-width="1"/>
+    <circle cx="220" cy="232" r="120" fill="none" stroke="#eee" stroke-width="1"/>
+  </g>
+
+  <!-- 12 positions. Outer = Major, inner = relative minor.
+       Angle 0 at top, clockwise. r_outer=145, r_minor=95, r_label(accidentals)=185 -->
+  <!-- We'll place text via precomputed coords -->
+
+  <!-- 12 o'clock: C / a / 0 -->
+  <g text-anchor="middle">
+    <!-- 0: C (top) -->
+    <text x="220" y="100" font-size="22" font-weight="bold" fill="#c0392b">C</text>
+    <text x="220" y="150" font-size="14" fill="#2980b9">a</text>
+    <text x="220" y="62" font-size="11" fill="#888">0</text>
+
+    <!-- 1 (30°): G / e / 1♯  at angle 30 clockwise from top -->
+    <!-- x=220+R sin, y=232 - R cos ; R_outer=132 -> sin30=.5 cos30=.866 -->
+    <text x="286" y="118" font-size="22" font-weight="bold" fill="#c0392b">G</text>
+    <text x="263" y="161" font-size="14" fill="#2980b9">e</text>
+    <text x="312" y="92" font-size="11" fill="#888">1♯</text>
+
+    <!-- 2 (60°): D / b / 2♯ -->
+    <text x="334" y="166" font-size="22" font-weight="bold" fill="#c0392b">D</text>
+    <text x="300" y="191" font-size="14" fill="#2980b9">b</text>
+    <text x="372" y="150" font-size="11" fill="#888">2♯</text>
+
+    <!-- 3 (90°): A / f♯ / 3♯ (right) -->
+    <text x="352" y="238" font-size="22" font-weight="bold" fill="#c0392b">A</text>
+    <text x="302" y="238" font-size="14" fill="#2980b9">f♯</text>
+    <text x="392" y="238" font-size="11" fill="#888">3♯</text>
+
+    <!-- 4 (120°): E / c♯ / 4♯ -->
+    <text x="334" y="310" font-size="22" font-weight="bold" fill="#c0392b">E</text>
+    <text x="300" y="281" font-size="14" fill="#2980b9">c♯</text>
+    <text x="372" y="330" font-size="11" fill="#888">4♯</text>
+
+    <!-- 5 (150°): B / g♯ / 5♯ -->
+    <text x="286" y="356" font-size="22" font-weight="bold" fill="#c0392b">B</text>
+    <text x="263" y="311" font-size="14" fill="#2980b9">g♯</text>
+    <text x="312" y="384" font-size="11" fill="#888">5♯</text>
+
+    <!-- 6 (180°): F♯/G♭ / 6 (bottom) -->
+    <text x="220" y="374" font-size="18" font-weight="bold" fill="#c0392b">F♯/G♭</text>
+    <text x="220" y="322" font-size="14" fill="#2980b9">d♯/e♭</text>
+    <text x="220" y="404" font-size="11" fill="#888">6</text>
+
+    <!-- 7 (210°): D♭ / b♭ / 5♭ -->
+    <text x="150" y="356" font-size="20" font-weight="bold" fill="#16a085">D♭</text>
+    <text x="177" y="311" font-size="14" fill="#2980b9">b♭</text>
+    <text x="120" y="384" font-size="11" fill="#888">5♭</text>
+
+    <!-- 8 (240°): A♭ / f / 4♭ -->
+    <text x="104" y="310" font-size="20" font-weight="bold" fill="#16a085">A♭</text>
+    <text x="138" y="281" font-size="14" fill="#2980b9">f</text>
+    <text x="64" y="330" font-size="11" fill="#888">4♭</text>
+
+    <!-- 9 (270°): E♭ / c / 3♭ (left) -->
+    <text x="86" y="238" font-size="20" font-weight="bold" fill="#16a085">E♭</text>
+    <text x="136" y="238" font-size="14" fill="#2980b9">c</text>
+    <text x="46" y="238" font-size="11" fill="#888">3♭</text>
+
+    <!-- 10 (300°): B♭ / g / 2♭ -->
+    <text x="104" y="166" font-size="20" font-weight="bold" fill="#16a085">B♭</text>
+    <text x="138" y="191" font-size="14" fill="#2980b9">g</text>
+    <text x="64" y="150" font-size="11" fill="#888">2♭</text>
+
+    <!-- 11 (330°): F / d / 1♭ -->
+    <text x="150" y="118" font-size="22" font-weight="bold" fill="#16a085">F</text>
+    <text x="177" y="161" font-size="14" fill="#2980b9">d</text>
+    <text x="120" y="92" font-size="11" fill="#888">1♭</text>
+  </g>
+
+  <!-- legend -->
+  <g font-size="11">
+    <rect x="150" y="214" width="140" height="40" fill="none" stroke="#ccc"/>
+    <text x="220" y="230" text-anchor="middle" fill="#c0392b">大写=大调（红/绿）</text>
+    <text x="220" y="246" text-anchor="middle" fill="#2980b9">小写=关系小调</text>
+  </g>
+</svg>
