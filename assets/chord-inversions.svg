@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 260" font-family="Arial, sans-serif">
+  <rect width="600" height="260" fill="#ffffff"/>
+  <text x="300" y="24" font-size="16" font-weight="bold" text-anchor="middle" fill="#222">C 大三和弦的转位（C-E-G）</text>
+
+  <!-- three columns: root, 1st inv, 2nd inv. Each a vertical stack of note labels low->high -->
+  <g text-anchor="middle">
+    <!-- Root position -->
+    <rect x="40" y="50" width="150" height="170" rx="8" fill="#eaf6ff" stroke="#2980b9"/>
+    <text x="115" y="74" font-size="14" font-weight="bold" fill="#2980b9">原位</text>
+    <text x="115" y="90" font-size="10" fill="#555">Root position</text>
+    <text x="115" y="130" font-size="16" fill="#222">G  (五音)</text>
+    <text x="115" y="158" font-size="16" fill="#222">E  (三音)</text>
+    <text x="115" y="186" font-size="16" font-weight="bold" fill="#c0392b">C  (根音/最低)</text>
+    <text x="115" y="210" font-size="11" fill="#555">记法: C</text>
+
+    <!-- 1st inversion -->
+    <rect x="225" y="50" width="150" height="170" rx="8" fill="#f0eaff" stroke="#7d5fb2"/>
+    <text x="300" y="74" font-size="14" font-weight="bold" fill="#7d5fb2">第一转位</text>
+    <text x="300" y="90" font-size="10" fill="#555">1st inversion</text>
+    <text x="300" y="130" font-size="16" fill="#222">C  (根音)</text>
+    <text x="300" y="158" font-size="16" fill="#222">G  (五音)</text>
+    <text x="300" y="186" font-size="16" font-weight="bold" fill="#c0392b">E  (三音/最低)</text>
+    <text x="300" y="210" font-size="11" fill="#555">记法: C/E</text>
+
+    <!-- 2nd inversion -->
+    <rect x="410" y="50" width="150" height="170" rx="8" fill="#eafaf1" stroke="#16a085"/>
+    <text x="485" y="74" font-size="14" font-weight="bold" fill="#16a085">第二转位</text>
+    <text x="485" y="90" font-size="10" fill="#555">2nd inversion</text>
+    <text x="485" y="130" font-size="16" fill="#222">E  (三音)</text>
+    <text x="485" y="158" font-size="16" fill="#222">C  (根音)</text>
+    <text x="485" y="186" font-size="16" font-weight="bold" fill="#c0392b">G  (五音/最低)</text>
+    <text x="485" y="210" font-size="11" fill="#555">记法: C/G</text>
+  </g>
+
+  <text x="300" y="244" font-size="11" text-anchor="middle" fill="#888">同样三个音，换不同音在最低，得到不同排列；转位让和弦连接更平滑</text>
+</svg>

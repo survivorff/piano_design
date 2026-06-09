@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 300" font-family="Arial, sans-serif">
+  <rect width="620" height="300" fill="#ffffff"/>
+  <text x="310" y="24" font-size="16" font-weight="bold" text-anchor="middle" fill="#222">音程：从 C 出发的半音距离</text>
+
+  <!-- one octave keyboard with markers C to C, 13 keys (semitones). We show white keys + black keys and number semitones -->
+  <!-- white keys C D E F G A B C -->
+  <g stroke="#333" stroke-width="1.5" fill="#fff">
+    <rect x="40"  y="60" width="64" height="150"/>
+    <rect x="104" y="60" width="64" height="150"/>
+    <rect x="168" y="60" width="64" height="150"/>
+    <rect x="232" y="60" width="64" height="150"/>
+    <rect x="296" y="60" width="64" height="150"/>
+    <rect x="360" y="60" width="64" height="150"/>
+    <rect x="424" y="60" width="64" height="150"/>
+    <rect x="488" y="60" width="64" height="150"/>
+  </g>
+  <!-- black keys -->
+  <g fill="#222">
+    <rect x="84"  y="60" width="40" height="95"/>
+    <rect x="148" y="60" width="40" height="95"/>
+    <rect x="280" y="60" width="40" height="95"/>
+    <rect x="344" y="60" width="40" height="95"/>
+    <rect x="408" y="60" width="40" height="95"/>
+  </g>
+
+  <!-- semitone numbers above each key position -->
+  <g font-size="11" text-anchor="middle" fill="#2980b9" font-weight="bold">
+    <text x="72"  y="52">0</text>
+    <text x="104" y="48">1</text>
+    <text x="136" y="52">2</text>
+    <text x="168" y="48">3</text>
+    <text x="200" y="52">4</text>
+    <text x="264" y="52">5</text>
+    <text x="300" y="48">6</text>
+    <text x="328" y="52">7</text>
+    <text x="364" y="48">8</text>
+    <text x="392" y="52">9</text>
+    <text x="428" y="48">10</text>
+    <text x="456" y="52">11</text>
+    <text x="520" y="52">12</text>
+  </g>
+
+  <!-- white key names -->
+  <g font-size="13" font-weight="bold" fill="#888" text-anchor="middle">
+    <text x="72"  y="200">C</text>
+    <text x="136" y="200">D</text>
+    <text x="200" y="200">E</text>
+    <text x="264" y="200">F</text>
+    <text x="328" y="200">G</text>
+    <text x="392" y="200">A</text>
+    <text x="456" y="200">B</text>
+    <text x="520" y="200">C</text>
+  </g>
+
+  <!-- interval reference table below -->
+  <g font-size="11" fill="#333">
+    <text x="40" y="238" font-weight="bold" fill="#c0392b">常用音程（半音数）：</text>
+    <text x="40" y="256">小三度=3(忧郁)  大三度=4(明亮)  纯四度=5  三全音=6(最不稳)</text>
+    <text x="40" y="274">纯五度=7(空旷稳定)  大六度=9  小七度=10  纯八度=12</text>
+    <text x="40" y="292" fill="#888">半音=相邻键(最小单位)；全音=2个半音；E-F 与 B-C 本身是半音</text>
+  </g>
+</svg>

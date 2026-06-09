@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 280" font-family="Arial, sans-serif">
+  <rect width="620" height="280" fill="#ffffff"/>
+  <text x="310" y="24" font-size="16" font-weight="bold" text-anchor="middle" fill="#222">四种三和弦（以 C 为根音）</text>
+
+  <!-- helper: each chord shown as 3 stacked note circles on a mini interval ruler -->
+  <!-- We'll display as text + semitone structure bars -->
+
+  <!-- columns -->
+  <g font-size="13" text-anchor="middle">
+    <!-- Major -->
+    <g>
+      <rect x="30" y="50" width="120" height="190" rx="8" fill="#eaf6ff" stroke="#2980b9"/>
+      <text x="90" y="74" font-size="15" font-weight="bold" fill="#2980b9">大三和弦</text>
+      <text x="90" y="92" font-size="11" fill="#555">Major</text>
+      <text x="90" y="120" font-size="18" font-weight="bold" fill="#222">C - E - G</text>
+      <text x="90" y="150" font-size="12" fill="#c0392b">大3 + 小3</text>
+      <text x="90" y="172" font-size="11" fill="#555">(4 + 3 半音)</text>
+      <text x="90" y="210" font-size="22">🙂</text>
+      <text x="90" y="232" font-size="11" fill="#555">明亮·稳定</text>
+    </g>
+    <!-- minor -->
+    <g>
+      <rect x="170" y="50" width="120" height="190" rx="8" fill="#f0eaff" stroke="#7d5fb2"/>
+      <text x="230" y="74" font-size="15" font-weight="bold" fill="#7d5fb2">小三和弦</text>
+      <text x="230" y="92" font-size="11" fill="#555">minor</text>
+      <text x="230" y="120" font-size="18" font-weight="bold" fill="#222">C - E♭ - G</text>
+      <text x="230" y="150" font-size="12" fill="#c0392b">小3 + 大3</text>
+      <text x="230" y="172" font-size="11" fill="#555">(3 + 4 半音)</text>
+      <text x="230" y="210" font-size="22">😔</text>
+      <text x="230" y="232" font-size="11" fill="#555">忧郁·柔和</text>
+    </g>
+    <!-- Augmented -->
+    <g>
+      <rect x="310" y="50" width="120" height="190" rx="8" fill="#fff3e0" stroke="#e67e22"/>
+      <text x="370" y="74" font-size="15" font-weight="bold" fill="#e67e22">增三和弦</text>
+      <text x="370" y="92" font-size="11" fill="#555">Augmented</text>
+      <text x="370" y="120" font-size="18" font-weight="bold" fill="#222">C - E - G♯</text>
+      <text x="370" y="150" font-size="12" fill="#c0392b">大3 + 大3</text>
+      <text x="370" y="172" font-size="11" fill="#555">(4 + 4 半音)</text>
+      <text x="370" y="210" font-size="22">😮</text>
+      <text x="370" y="232" font-size="11" fill="#555">紧张·悬疑</text>
+    </g>
+    <!-- diminished -->
+    <g>
+      <rect x="450" y="50" width="120" height="190" rx="8" fill="#fdeaea" stroke="#c0392b"/>
+      <text x="510" y="74" font-size="15" font-weight="bold" fill="#c0392b">减三和弦</text>
+      <text x="510" y="92" font-size="11" fill="#555">diminished</text>
+      <text x="510" y="120" font-size="18" font-weight="bold" fill="#222">C - E♭ - G♭</text>
+      <text x="510" y="150" font-size="12" fill="#c0392b">小3 + 小3</text>
+      <text x="510" y="172" font-size="11" fill="#555">(3 + 3 半音)</text>
+      <text x="510" y="210" font-size="22">😰</text>
+      <text x="510" y="232" font-size="11" fill="#555">紧张·阴暗</text>
+    </g>
+  </g>
+
+  <text x="310" y="264" font-size="11" text-anchor="middle" fill="#888">三音（中间音）决定明暗：大三度=明亮，小三度=忧郁</text>
+</svg>

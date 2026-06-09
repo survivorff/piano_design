@@ -21,6 +21,10 @@
 | `circle-of-fifths.svg` | 五度圈 | 音阶与调式 |
 | `posture.svg` | 正确坐姿侧面 | 坐姿手型与放松 |
 | `hand-shape.svg` | 正确/错误手型对比 | 坐姿手型与放松 |
+| `intervals.svg` | 从C出发的音程半音距离 | 音程 |
+| `triads.svg` | 四种三和弦对比 | 和弦基础 |
+| `chord-inversions.svg` | C大三和弦转位 | 和弦基础 |
+| `note-values.svg` | 音符时值比例 | 五线谱与记谱法 |
 
 ## 关于真实照片与视频
 
